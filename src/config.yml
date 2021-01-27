@@ -1,0 +1,164 @@
+﻿### ---------------------------###
+### ---------------------------###
+### CREATE MOB || /cmob <mob type>
+### ---------------------------###
+### ---------------------------###
+
+cmob-wrong-usage: 'Wrong usage'
+cmob-usage: '/cmob <mob type>'
+cmob-successfully: 'You have successfully created an entity'
+cmob-wrong-mobtype: 'Please enter a valid mob type!'
+cmob-no-permission: 'You do not have permission to execute the command.'
+cmob-only-for-players: 'This command is only available for players!'
+
+### ---------------------------###
+### ---------------------------###
+### FLY || /fly <player>
+### ---------------------------###
+### ---------------------------###
+
+fly-offline-player: 'This player is currently offline!'
+fly-disabled: 'Your fly has been disabled.'
+fly-enabled: 'Your fly has been enabled.'
+fly-wrong-usage: 'Wrong usage'
+fly-usage: '/fly <player>'
+fly-no-permission: 'You do not have permission to execute the command.'
+fly-only-for-players: 'This command is only available for players!'
+
+### ---------------------------###
+### ---------------------------###
+### FLY SPEED || /flyspeed <player> [1-50]
+### ---------------------------###
+### ---------------------------###
+
+flyspeed-offline-player: 'This player is currently offline!'
+flyspeed-wrong-usage: 'Wrong usage'
+flyspeed-usage: '/flyspeed <player> [0-50]'
+flyspeed-no-permission: 'You do not have permission to execute the command.'
+flyspeed-only-for-players: 'This command is only available for players!'
+flyspeed-enter-valid-number: 'Please enter a number from 0-50!'
+flyspeed-successfull: 'You have successfully set player fly speed to'
+
+### ---------------------------###
+### ---------------------------###
+### FOOD || /food <player>
+### ---------------------------###
+### ---------------------------###
+
+food-wrong-usage: 'Wrong usage'
+food-usage: '/food <player>'
+food-offline-player: 'This player is currently offline!'
+food-already-recharged: 'The player`s food is already recharged!'
+food-successfull: 'Successfully food!'
+food-target-successfull: 'Your food has been recharged!'
+food-no-permission: 'You do not have permission to execute the command.'
+food-only-for-players: 'This command is only available for players!'
+
+### ---------------------------###
+### ---------------------------###
+### GAMEMODE || /gm <creative | survival | spectator | adventure> <player>
+### ---------------------------###
+### ---------------------------###
+
+gm-offline-player-creative: 'This player is currently offline!'
+gm-already-creative: 'Your gamemode has already Creative!'
+gm-successfully-creative: 'Your game mod is successfully changed!'
+gm-offline-player-survival: 'This player is currently offline!'
+gm-already-survival: 'Your gamemode has already Survival!'
+gm-successfully-survival: 'Your game mod is successfully changed!'
+gm-offline-player-adventure: 'This player is currently offline!'
+gm-already-adventure: 'Your gamemode has already Adventure!'
+gm-successfully-adventure: 'Your game mod is successfully changed!'
+gm-offline-player-spectator: 'This player is currently offline!'
+gm-already-spectator: 'Your gamemode has already Spectator!'
+gm-successfully-spectator: 'Your game mod is successfully changed!'
+gm-wrong-usage: 'Wrong usage'
+gm-usage: '/gm [creative | adventure | spectator | survival] <player>'
+gm-no-permission: 'You do not have permission to execute the command.'
+gm-only-for-players: 'This command is only available for players!'
+
+### ---------------------------###
+### ---------------------------###
+### HAT || /hat
+### ---------------------------###
+### ---------------------------###
+
+hat-empty-mainhand: 'You are not holding anything in your hand'
+hat-successfull: 'Your hat is very beautiful!'
+hat-no-permission: 'You do not have permission to execute the command.'
+hat-only-for-players: 'This command is only available for players!'
+
+### ---------------------------###
+### ---------------------------###
+### HEAL || /heal <player>
+### ---------------------------###
+### ---------------------------###
+
+heal-wrong-usage: 'Wrong usage'
+heal-usage: '/heal <player>'
+heal-offline-player: 'his player is currently offline!'
+heal-already-recharged: 'The player`s health is already recharged!'
+heal-successfull: 'Successfully heal!'
+heal-target-successfull: 'Your health has been recharged!'
+heal-no-permission: 'You do not have permission to execute the command.'
+heal-only-for-players: 'This command is only available for players!'
+
+### ---------------------------###
+### ---------------------------###
+### PRIVATE MESSAGES || /pm <player> <message>
+### ---------------------------###
+### ---------------------------###
+
+pm-wrong-usage: 'Wrong usage'
+pm-usage: '/pm <player> <message>'
+pm-can-not-send-yourself: 'You can not send messages to yourself!'
+pm-empty-message: 'Please enter a message!'
+pm-received-alert: 'You received a message from '
+pm-offline-player: 'That player is currently offline!'
+pm-no-permission: 'You do not have permission to execute the command.'
+pm-only-for-players: 'This command is only available for players!'
+pm-successfully-sent: 'You have successfully sent a message to'
+
+### ---------------------------###
+### ---------------------------###
+### WALK SPEED || /walkspeed <player> <1-50>
+### ---------------------------###
+### ---------------------------###
+
+walkspeed-offline-player: 'This player is currently offline!'
+walkspeed-wrong-usage: 'Wrong usage'
+walkspeed-usage: '/walkspeed <player> [0-50]'
+walkspeed-no-permission: 'You do not have permission to execute the command.'
+walkspeed-only-for-players: 'This command is only available for players!'
+walkspeed-enter-valid-number: 'Please enter a number from 0-50!'
+walkspeed-successfull: 'You have successfully set player walk speed to'
+
+
+### ---------------------------###
+### ---------------------------###
+### VANISH || /vanish  <player>
+### ---------------------------###
+### ---------------------------###
+
+vanish-successfully-hidden: 'You have successfully hidden the player!'
+vanish-admin-hidden-you: 'An administrator has hidden you!'
+vanish-successfully-showed: 'You have successfully showed the player!'
+vanish-admin-showed-you: 'An administrator has showed you.'
+vanish-no-permission: 'You do not have permission to execute the command.'
+vanish-wrong-usage: 'Wrong usage'
+vanish-usage: '/vanish <player>'
+vanish-offline-player: 'This player is currently offline!'
+
+### ---------------------------###
+### ---------------------------###
+### SCOREBOARD
+### ---------------------------###
+### ---------------------------###
+
+scoreboard:
+  title: "xEngine SCOREBOARD"
+  line-1: ""
+  line-2: "§d{name}"
+
+
+

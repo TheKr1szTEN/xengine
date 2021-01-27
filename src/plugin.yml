@@ -1,0 +1,27 @@
+name: xEngine
+author: Kr1sz
+version: 1.0
+main: me.kr1sz.xengine.main
+api-version: 1.16
+
+commands:
+  gm:
+    description: switch gamemodes
+  fly:
+    description: enable/disable fly
+  flyspeed:
+    description: Set your flyspeed
+  walkspeed:
+    description: Set your walkspeed
+  hat:
+    description: set an item as your head
+  pm:
+    description: PrivateMessage
+  heal:
+    description: heal command
+  food:
+    description: food command
+  cmob:
+    description: create mob
+  vanish:
+    description: vanish yourself or other players
